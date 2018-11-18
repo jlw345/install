@@ -7,7 +7,7 @@ export PATH
 #       Version: 1.0.2
 #       Author: Toyo
 #       Blog: https://doub.io/pipesocks-jc1/
-#       Github: https://github.com/pipesocks/install
+#       Github: https://github.com/jlw345/install
 #=================================================
 pipes_file="/usr/local/pipesocks"
 pipes_ver="/usr/local/pipesocks/ver.txt"
@@ -67,7 +67,7 @@ Download_pipes(){
 	cd "/usr/local"
 	if [[ ${bit} == "x86_64" ]]; then
 		#wget -O "pipesocks-linux.tar.xz" "https://coding.net/u/yvbbrjdr/p/pipesocks-release/git/raw/master/pipesocks-${pipes_new_ver}-linux.tar.xz"
-		wget -O "pipesocks-linux.tar.xz" "https://github.com/pipesocks/pipesocks/releases/download/${pipes_new_ver}/pipesocks-${pipes_new_ver}-linux.tar.xz"
+		wget -O "pipesocks-linux.tar.xz" "https://github.com/jlw345/pipesocks/releases/download/${pipes_new_ver}/pipesocks-${pipes_new_ver}-linux.tar.xz"
 	else
 		echo -e "${Error_font_prefix}[错误]${Font_suffix} 不支持 ${bit} !" && exit 1
 	fi
